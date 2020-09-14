@@ -54,4 +54,3 @@ for row in rows:
   if birth_month_and_day == hoy_md:
     name, lastName, email = row[0], row[1], row[2]
     send_birthdaymail(name,lastName,email)
-
