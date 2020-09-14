@@ -32,7 +32,7 @@ def send_birthdaymail(name,lastName,to_addr):
   smtp_server = smtplib.SMTP('smtp.gmail.com',587)
   smtp_server.ehlo()
   smtp_server.starttls()
-  smtp_server.login(from_addr, 'nmssaydlrnnipdqt')
+  smtp_server.login(from_addr, 'xxxxxxxxxxxxx')
 
   text = msg.as_string()
   smtp_server.sendmail(from_addr,to_addr,text)

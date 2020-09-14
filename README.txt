@@ -14,4 +14,4 @@ comandos para importar los datos desde el archivo data.csv dentro de la tabla "c
 -----------------------------------
 .import data.csv clientes
 
-secret: nmssaydlrnnipdqt
+secret: xxxxxxxxxxxxxxxxx
